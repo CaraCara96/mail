@@ -1,0 +1,30 @@
+textarea {
+    min-height: 400px;
+}
+.wrapper{
+    border: 2px solid rgb(184, 181, 181);
+    margin-top: 12px;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bn{
+    display: flex;
+    justify-content: flex-end;
+    
+    width: 100%;
+   
+}
+.email-container{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.subject {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#sub{
+    margin-top: 10px;
+}
